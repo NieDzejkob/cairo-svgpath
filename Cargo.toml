@@ -3,6 +3,7 @@ name = "cairo-svgpath"
 version = "0.1.0"
 authors = ["Jakub Kądziołka <kuba@kadziolka.net>"]
 edition = "2018"
+readme = "README.md"
 
 [lib]
 proc-macro = true
@@ -12,3 +13,5 @@ syn = "^0.15"
 proc-macro2 = "^0.4"
 quote = "^0.6"
 svgtypes = "^0.4"
+lyon_geom = "^0.12"
+euclid = "^0.19"
