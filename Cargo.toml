@@ -3,6 +3,9 @@ name = "cairo-svgpath"
 version = "0.1.0"
 authors = ["Jakub Kądziołka <kuba@kadziolka.net>"]
 edition = "2018"
+description = "Draw on cairo surfaces using SVG path syntax, with compile-time parsing and conversion."
+repository = "https://github.com/NieDzejkob/cairo-svgpath"
+license = "MIT"
 readme = "README.md"
 
 [lib]
