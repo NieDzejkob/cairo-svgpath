@@ -20,10 +20,8 @@ pub fn svgpath(input: TokenStream) -> TokenStream {
                 y,
                 ..
             } => quote! { #ident.curve_to(#x1, #y1, #x2, #y2, #x, #y); },
-            other => {
-                dbg!(other);
-                unimplemented!();
-            }
+            PathSegment::ClosePath { .. } => quote! { #ident.close_path(); },
+            _ => unreachable!(),
         })
         .map(Into::<proc_macro::TokenStream>::into)
         .collect()

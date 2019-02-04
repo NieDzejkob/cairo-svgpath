@@ -1,6 +1,6 @@
 [package]
 name = "cairo-svgpath"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jakub Kądziołka <kuba@kadziolka.net>"]
 edition = "2018"
 description = "Draw on cairo surfaces using SVG path syntax, with compile-time parsing and conversion."

@@ -1,6 +1,6 @@
 # cairo-svgpath
 
-Draw on cairo surfaces using SVG path syntax, with compile-time parsing.
+Draw on cairo surfaces using SVG path syntax, with compile-time parsing and conversion.
 
 ```rust
 use cairo_svgpath::svgpath;
